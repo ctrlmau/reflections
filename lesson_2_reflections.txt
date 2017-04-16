@@ -5,3 +5,27 @@ git sets up; to give git the chance to start working on the directory, creating 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 shows the file YOU evaluate to be ready for a commit; it lets you skip things you are not interested in commit yet
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+moving only the concerning files to the staging area before committing
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+creating new features that works indipendenlty from the main work, which may continue to evolve in the while. they would help to be able to move between features and main project and develop them at the same time but separately
+
+How do the diagrams help you visualize the branch structure?
+
+showing parallel evolution and merge of features to the master branch
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+all the features are in the same working directory. to show how it went through
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+pro: it works by itself and only asks for help when it's needed
+cons: boh
+
+pro: you check situation personally
+cons: it takes so much time and most of it is "useless"
